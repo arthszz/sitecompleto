@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz de Bem-Estar</title>
+</head>
+<body>
+    <section class="quiz-section">
+        
+        <header>
+          <a href="index.html"><img id="img" src="imagens/logo.jpg" alt="Logo"></a>
+          <h1><img id="img3" src="imagens/VidaPlena.png" alt="Vida Plena"></h1>
+          <div>
+              <nav>
+                  <a id="aa" href="quiz.html">Quiz</a> |
+                  <a id="aa" href="contato.html">contato</a> |
+                  <a id="aa" href="artigos.html">Artigos</a>|
+                  <a id="aa" href="Produtos.html">Produtos</a>
+              </nav>
+          </div>
+      </header>
+
+        <form id="quiz-form">
+          <h1>Quiz de Conhecimentos sobre Bem-Estar</h1>
+          <section class="question">
+            <h3>1. Qual é a importância do sono para o bem-estar geral?</h3>
+            <label><input type="radio" name="q1" value="A" onclick="disableOptions('q1'), playSound()">A) Nenhuma importância</label><br>
+            <label><input type="radio" name="q1" value="B" onclick="disableOptions('q1'), playSound()">B) Importante para descanso físico</label><br>
+            <label><input type="radio" name="q1" value="C" onclick="disableOptions('q1'), playSound()">C) Fundamental para saúde mental e física</label><br>
+            <label><input type="radio" name="q1" value="D" onclick="disableOptions('q1'), playSound()">D) Apenas um hábito sem importância</label><br>
+          </section>
+
+          <section class="question">
+            <h3>2. Qual é a principal função dos exercícios físicos regulares?</h3>
+            <label><input type="radio" name="q2" value="A" onclick="disableOptions('q2'), playSound()">A) Aumentar o apetite</label><br>
+            <label><input type="radio" name="q2" value="B" onclick="disableOptions('q2'), playSound()">B) Melhorar o humor e a saúde cardiovascular</label><br>
+            <label><input type="radio" name="q2" value="C" onclick="disableOptions('q2'), playSound()">C) Ganhar peso</label><br>
+            <label><input type="radio" name="q2" value="D" onclick="disableOptions('q2'), playSound()">D) Aumentar o estresse</label><br>
+          </section>
+
+          <section class="question">
+            <h3>3. Qual dos seguintes alimentos é considerado uma boa fonte de antioxidantes?</h3>
+            <label><input type="radio" name="q3" value="A" onclick="disableOptions('q3'), playSound()">A) Doces</label><br>
+            <label><input type="radio" name="q3" value="B" onclick="disableOptions('q3'), playSound()">B) Frutas vermelhas</label><br>
+            <label><input type="radio" name="q3" value="C" onclick="disableOptions('q3'), playSound()">C) Refrigerantes</label><br>
+            <label><input type="radio" name="q3" value="D" onclick="disableOptions('q3'), playSound()">D) Fast food</label><br>
+          </section>
+
+          <section class="question">
+            <h3>4. Qual é o papel da hidratação no bem-estar físico?</h3>
+            <label><input type="radio" name="q4" value="A" onclick="disableOptions('q4'), playSound()">A) Hidratação não é importante</label><br>
+            <label><input type="radio" name="q4" value="B" onclick="disableOptions('q4'), playSound()">B) Somente para quem pratica exercícios físicos</label><br>
+            <label><input type="radio" name="q4" value="C" onclick="disableOptions('q4'), playSound()">C) Essencial para o funcionamento de todos os sistemas do corpo</label><br>
+            <label><input type="radio" name="q4" value="D" onclick="disableOptions('q4'), playSound()">D) Apenas para regular a temperatura corporal</label><br>
+          </section>
+
+          <section class="question">
+            <h3>5. Qual é o impacto do estresse crônico na saúde?</h3>
+            <label><input type="radio" name="q5" value="A" onclick="disableOptions('q5'), playSound()">A) Não tem impacto</label><br>
+            <label><input type="radio" name="q5" value="B" onclick="disableOptions('q5'), playSound()">B) Pode causar problemas de saúde mental e física</label><br>
+            <label><input type="radio" name="q5" value="C" onclick="disableOptions('q5'), playSound()">C) Apenas cansaço temporário</label><br>
+            <label><input type="radio" name="q5" value="D" onclick="disableOptions('q5'), playSound()">D) Melhora a resistência física</label><br>
+          </section>
+
+          <section class="question">
+            <h3>6. Qual das seguintes práticas é recomendada para reduzir o estresse?</h3>
+            <label><input type="radio" name="q6" value="A" onclick="disableOptions('q6'), playSound()">A) Meditação</label><br>
+            <label><input type="radio" name="q6" value="B" onclick="disableOptions('q6'), playSound()">B) Trabalhar mais</label><br>
+            <label><input type="radio" name="q6" value="C" onclick="disableOptions('q6'), playSound()">C) Ignorar os problemas</label><br>
+            <label><input type="radio" name="q6" value="D" onclick="disableOptions('q6'), playSound()">D) Comer em excesso</label><br>
+          </section>
+
+          <section class="question">
+            <h3>7. Qual é a importância da alimentação equilibrada para o bem-estar?</h3>
+            <label><input type="radio" name="q7" value="A" onclick="disableOptions('q7'), playSound()">A) Nenhuma importância</label><br>
+            <label><input type="radio" name="q7" value="B" onclick="disableOptions('q7'), playSound()">B) Fundamental para manter a saúde e prevenir doenças</label><br>
+            <label><input type="radio" name="q7" value="C" onclick="disableOptions('q7'), playSound()">C) Apenas para perder peso</label><br>
+            <label><input type="radio" name="q7" value="D" onclick="disableOptions('q7'), playSound()">D) Somente para atletas</label><br>
+          </section>
+
+          <section class="question">
+            <h3>8. Como a prática regular de exercícios pode afetar o humor?</h3>
+            <label><input type="radio" name="q8" value="A" onclick="disableOptions('q8'), playSound()">A) Aumenta o estresse</label><br>
+            <label><input type="radio" name="q8" value="B" onclick="disableOptions('q8'), playSound()">B) Não tem efeito</label><br>
+            <label><input type="radio" name="q8" value="C" onclick="disableOptions('q8'), playSound()">C) Melhora o humor e reduz sintomas de depressão</label><br>
+            <label><input type="radio" name="q8" value="D" onclick="disableOptions('q8'), playSound()">D) Deixa a pessoa mais cansada e irritada</label><br>
+          </section>
+
+          <section class="question">
+            <h3>9. O que significa "bem-estar emocional"?</h3>
+            <label><input type="radio" name="q9" value="A" onclick="disableOptions('q9'), playSound()">A) Estar feliz o tempo todo</label><br>
+            <label><input type="radio" name="q9" value="B" onclick="disableOptions('q9'), playSound()">B) Capacidade de lidar com emoções de forma saudável</label><br>
+            <label><input type="radio" name="q9" value="C" onclick="disableOptions('q9'), playSound()">C) Ignorar sentimentos negativos</label><br>
+            <label><input type="radio" name="q9" value="D" onclick="disableOptions('q9'), playSound()">D) Nunca se sentir triste</label><br>
+          </section>
+
+          <section class="question">
+            <h3>10. Qual dos seguintes é um benefício de manter relações sociais saudáveis?</h3>
+            <label><input type="radio" name="q10" value="A" onclick="disableOptions('q10'), playSound()">A) Isolamento</label><br>
+            <label><input type="radio" name="q10" value="B" onclick="disableOptions('q10'), playSound()">B) Aumento do estresse</label><br>
+            <label><input type="radio" name="q10" value="C" onclick="disableOptions('q10'), playSound()">C) Suporte emocional e sensação de pertencimento</label><br>
+            <label><input type="radio" name="q10" value="D" onclick="disableOptions('q10'), playSound()">D) Diminuição da autoestima</label><br>
+          </section>
+          
+          <button type="submit" id="submitButton">Enviar Respostas</button>
+        </form>
+
+        <audio id="venceusom" src="som/venceu.mp3" preload="auto"></audio>
+        <audio id="selecionasom" src="som/seleciona.mp3" preload="auto"></audio>
+        <audio id="perdeusom" src="som/perdeu.mp3" preload="auto"></audio>
+
+        <section id="result"></section>
+    </section>
+
+    <footer>
+        <p>Site desenvolvido por Arthur</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
