@@ -11,13 +11,15 @@
     --cor2: #B0BC98 ;
     --cor3: #C7CCB9 ;
     --cor4: #CAE2BC ;
-    --cor5: #449220;
+    --cor5: #449220 ;
+    --cor6: #3f3a3a ;
+  
   }
 
   *{
     margin: 0%;
     padding: 0%;
-    font-family: "Roboto", sans-serif;
+    font-family: "", sans-serif;
     color: white;
   }
   body{
