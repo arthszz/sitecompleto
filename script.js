@@ -1,8 +1,13 @@
 document.getElementById('quiz-form').addEventListener('submit', function(event) {
     event.preventDefault();
-
-  
-
+ 
+    // Desativar o botão de enviar
+    document.getElementById('submitButton').disabled = true;
+ 
+    // Ativar o botão "Responder novamente"
+    document.getElementById('retryButton').disabled = false;
+ 
+    // Calcular e exibir o resultado
     submitQuiz();
 });
 
@@ -62,3 +67,15 @@ function submitQuiz() {
         document.getElementById('perdeusom').play();
     }
 }
+
+document.getElementById('retryButton').addEventListener('click', function() {
+    // Resetar o formulário
+    document.getElementById('quiz-form').reset();
+ 
+    // Ativar o botão de enviar e desativar o botão de responder novamente
+    document.getElementById('submitButton').disabled = false;
+    document.getElementById('retryButton').disabled = true;
+ 
+    // Limpar o resultado
+    document.getElementById('result').innerText = '';
+});

@@ -162,6 +162,7 @@ button[type="submit"] {
   cursor: pointer;
   display: block;
   margin: auto;
+  width: 165px;
 }
 
 button[type="submit"]:hover {
@@ -343,5 +344,22 @@ input[type="radio"] {
   color: #FFF;
 }
 
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
 
+button {
+  background-color: #49b733;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+}
 
+button:hover {
+  background-color: #138002;
+}
